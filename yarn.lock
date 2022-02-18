@@ -7130,6 +7130,11 @@ ultron@1.0.x:
   resolved "https://registry.yarnpkg.com/ultron/-/ultron-1.0.2.tgz#ace116ab557cd197386a4e88f4685378c8b2e4fa"
   integrity sha1-rOEWq1V80Zc4ak6I9GhTeMiy5Po=
 
+unflow-react-native@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/unflow-react-native/-/unflow-react-native-1.4.1.tgz#32e8a9fd06b89b5732e251ef2340b4c07fbbc95b"
+  integrity sha512-z2R4A5h1R909yZHgkNfMHkU8q5Ehka2z2GZhlucLd0ovkxcpZdVvzYWiZJRA5Bq6grzpllEDa9geHWwnUih0Vg==
+
 unicode-canonical-property-names-ecmascript@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/unicode-canonical-property-names-ecmascript/-/unicode-canonical-property-names-ecmascript-2.0.0.tgz#301acdc525631670d39f6146e0e77ff6bbdebddc"
