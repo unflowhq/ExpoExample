@@ -365,6 +365,10 @@ PODS:
   - RNScreens (3.10.2):
     - React-Core
     - React-RCTImage
+  - Unflow (1.4.1)
+  - unflow-react-native (1.4.1):
+    - React-Core
+    - Unflow
   - Yoga (1.14.0)
 
 DEPENDENCIES:
@@ -416,11 +420,13 @@ DEPENDENCIES:
   - React-runtimeexecutor (from `../node_modules/react-native/ReactCommon/runtimeexecutor`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - RNScreens (from `../node_modules/react-native-screens`)
+  - unflow-react-native (from `../node_modules/unflow-react-native`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
   trunk:
     - boost-for-react-native
+    - Unflow
 
 EXTERNAL SOURCES:
   DoubleConversion:
@@ -515,6 +521,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   RNScreens:
     :path: "../node_modules/react-native-screens"
+  unflow-react-native:
+    :path: "../node_modules/unflow-react-native"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -566,6 +574,8 @@ SPEC CHECKSUMS:
   React-runtimeexecutor: 493d9abb8b23c3f84e19ae221eeba92cadcb70dc
   ReactCommon: 8fea6422328e2fc093e25c9fac67adbcf0f04fb4
   RNScreens: d6da2b9e29cf523832c2542f47bf1287318b1868
+  Unflow: 68ac0d302626f047d7009e446f9d6a5cbe775dbf
+  unflow-react-native: a0395044ac10cf4a458fe753e5446a01f7de5b6e
   Yoga: e6ecf3fa25af9d4c87e94ad7d5d292eedef49749
 
 PODFILE CHECKSUM: 75d21b3370303e83a46b0ca3ff32a304137ea4fe
