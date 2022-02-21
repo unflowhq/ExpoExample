@@ -1,4 +1,5 @@
 import { StyleSheet } from "react-native";
+import Unflow, { OpenerView } from "unflow-react-native";
 
 import EditScreenInfo from "../components/EditScreenInfo";
 import { Text, View } from "../components/Themed";
@@ -7,9 +8,13 @@ import { RootTabScreenProps } from "../types";
 export default function TabOneScreen({
   navigation,
 }: RootTabScreenProps<"TabOne">) {
+  Unflow.initialize("<YOUR API KEY>", false);
+  Unflow.sync();
+
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Tab One</Text>
+      <OpenerView />
       <View
         style={styles.separator}
         lightColor="#eee"
